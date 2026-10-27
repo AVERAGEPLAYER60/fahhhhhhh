@@ -1,6 +1,7 @@
 plugins {
-	// 26.1+ is unobfuscated: the plugin id is net.fabricmc.fabric-loom and there is no mappings line.
-	id 'net.fabricmc.fabric-loom' version "${project.loom_version}"
+    id 'net.fabricmc.fabric-loom' version '1.18-SNAPSHOT'
+    id 'maven-publish'
+}
 	id 'maven-publish'
 }
 
